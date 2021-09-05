@@ -1,0 +1,18 @@
+query getMuezzinsByAdmin($limit:Int,$skip:Int) {
+  getMuezzinsByAdmin(
+    pagination:{
+      skip: $skip,
+      limit:$limit
+    }
+  ) {
+    _id
+    name {
+      lang
+      value
+    }
+    voiceUrl{
+      host
+      path
+    }
+  }
+}

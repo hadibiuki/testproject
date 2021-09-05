@@ -1,0 +1,11 @@
+mutation updateMuezzinByAdmin($id:ID!,$name :[MultiLanguageInput!]!,$voiceUrl : URLInput! ){
+  updateMuezzinByAdmin(
+    _id: $id,
+    inputs : {
+      name : $name,
+      voiceUrl : $voiceUrl
+    }
+  ){
+    _id
+  }
+}

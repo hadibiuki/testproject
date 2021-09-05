@@ -1,0 +1,5 @@
+mutation deleteMuezzinByAdmin($id:ID!){
+  deleteMuezzinByAdmin(_id:$id){
+    _id
+  }
+}

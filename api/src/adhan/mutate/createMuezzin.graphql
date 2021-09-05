@@ -1,0 +1,9 @@
+mutation createMuezzinByAdmin($name :[MultiLanguageInput!]!,$voiceUrl : URLInput!) {
+  createMuezzinByAdmin(inputs : {
+    name: $name,
+    voiceUrl : $voiceUrl
+  }){
+    _id
+
+  }
+}

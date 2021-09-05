@@ -1,0 +1,15 @@
+@import "./tailwind.css";
+/*@import "./global.css";*/
+
+:root {
+
+
+  --green: #00C853;
+  --greenFade :  rgba(0, 200, 83, 0.5);
+  --greenLight : rgba(0, 200, 83 , 0.7 );
+  --grayLight : #817F7F;
+  --red: #FE5656 ;
+  --black: #373737;
+
+}
+

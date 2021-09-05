@@ -1,0 +1,7 @@
+query x{
+  getPosts{
+    _id
+    title
+  },
+  createdAt
+}

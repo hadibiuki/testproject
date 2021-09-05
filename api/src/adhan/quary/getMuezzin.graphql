@@ -1,0 +1,15 @@
+query getMuezzinByAdmin($id:ID!){
+  getMuezzinByAdmin (
+    _id:$id
+  ){
+    _id
+    name {
+      lang
+      value
+    }
+    voiceUrl {
+      host
+      path
+    }
+  }
+}
